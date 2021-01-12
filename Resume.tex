@@ -1,0 +1,27 @@
+\makeatletter
+\def\input@path{{sections/}{moderncv/}}
+\makeatother
+
+\documentclass{moderncv}
+
+\usepackage[margin=0.5in]{geometry}
+
+\moderncvstyle{banking} % style options are 'casual' (default), 'classic', 'banking', 'oldstyle', and 'fancy'
+\moderncvcolor{black}    % color options are 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple', and 'red'
+
+\begin{document}
+
+    \input{header}
+
+    \section{Education}
+        \input{umbc}
+
+    \section{Professional Experience}
+    	\input{leidos}
+        \input{argonne}
+    	\input{purdue}
+    	\input{rhb}
+    \section{Computer Skills}
+    	\input{computer-skills}
+
+\end{document}
